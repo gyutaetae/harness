@@ -1,0 +1,6 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+
+persuasion-data/runs/*
+!persuasion-data/runs/.gitkeep

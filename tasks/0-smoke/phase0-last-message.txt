@@ -1,0 +1,6 @@
+완료했습니다. [tasks/0-smoke/index.json](/Users/gyuteoi/Desktop/harness/tasks/0-smoke/index.json:8)의 phase `0` status를 `"completed"`로 변경했습니다.
+
+검증:
+`jq -e '.phases[] | select(.phase == 0 and .status == "completed")' tasks/0-smoke/index.json` 통과.
+
+커밋은 하지 않았습니다. `/Users/gyuteoi/Desktop/harness`는 현재 git 저장소가 아니며 `git rev-parse --show-toplevel`가 실패했습니다.
